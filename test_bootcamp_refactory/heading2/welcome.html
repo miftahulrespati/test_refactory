@@ -10,7 +10,7 @@
     <body></body>
     <script>
         const query = window.location.search.substring(1);
-        const token = query.split("access_token=")[1];
+        const token = query.split("token_uri=")[1];
 
         fetch("https://googleapis.com/auth/userinfo.email", {
             headers: {
