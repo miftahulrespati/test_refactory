@@ -45,7 +45,7 @@ func main() {
 			w.WriteHeader(http.StatusBadRequest)
 		}
 
-		w.Header().Set("Location", "/welcome.html?access_token="+t.AccessToken)
+		w.Header().Set("Location", "/welcome.html?token_uri="+t.AccessToken)
 		w.WriteHeader(http.StatusFound)
 	})
 
@@ -53,5 +53,5 @@ func main() {
 }
 
 type OAuthAccessResponse struct {
-	AccessToken string `json:"access_token`
+	AccessToken string `json:"token_uri`
 }
