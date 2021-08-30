@@ -27,5 +27,5 @@ func main() {
 
 	fmt.Println("Fibonacci:", a)
 	fmt.Println("Result:", result)
-	fmt.Println("Selisih:", output)
+	fmt.Println("Difference:", output)
 }
