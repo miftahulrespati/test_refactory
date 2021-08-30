@@ -71,7 +71,7 @@ func main() {
 	fmt.Println("Furnitures: ", census)
 
 	census = nil
-	fmt.Println("Items purchased on 16 Januari 2020 : No sufficient data!")
+	fmt.Println("Items purchased on 16 Januari 2020 : error! insufficient data!")
 	
 	census = nil
 	for i := 0; i < len(inventories.Inventories); i++ {
